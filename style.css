@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html,
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F6%2F2%2F2%2F1250926-drum-wallpaper-hd-1920x1200-screen.jpg&f=1&nofb=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 175px;
+  padding-bottom: 25px;
+}
+.note{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.keys {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.key {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 8px;
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  padding: 10px 0;
+  border-radius: 5px;
+  transition: all .2s;
+  cursor: pointer;
+}
+.key kbd {
+  font-size: 36px;
+  display: block;
+}
+.key .sound {
+  text-transform: capitalize;
+}
+
+.playing {
+  border: 5px solid #5670F5;
+  -webkit-box-shadow: 0 0 20px #5670F5;
+          box-shadow: 0 0 20px #5670F5;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
