@@ -1,1 +1,1 @@
-# 30-Days-of-JavaScript
+# #JavaScript30
